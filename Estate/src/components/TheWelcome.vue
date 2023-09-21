@@ -15,7 +15,7 @@ onMounted(() => {
   <div>
     <ul>
       <li v-for="user in users" :key="user">
-        {{ user.firstName }}
+        {{ user.firstName }} {{ user.lastName }} Age: {{ user.age }}
       </li>
     </ul>
   </div>
