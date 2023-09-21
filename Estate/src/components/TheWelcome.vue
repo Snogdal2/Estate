@@ -14,8 +14,8 @@ onMounted(() => {
 <template>
   <div>
     <ul>
-      <li v-for="users in users" :key="users">
-        {{ users.firstName }}
+      <li v-for="user in users" :key="user">
+        {{ user.firstName }}
       </li>
     </ul>
   </div>
